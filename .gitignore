@@ -52,3 +52,4 @@ node_modules/
 # local database & uploads
 *.db
 *.db-journal
+.env*
