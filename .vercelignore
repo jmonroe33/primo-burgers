@@ -1,0 +1,9 @@
+.env*
+!.env.example
+*.db
+*.db-journal
+/media
+/node_modules
+/.next
+/docs
+/.claude
