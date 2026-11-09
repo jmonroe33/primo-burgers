@@ -1,0 +1,80 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-ink: #101010;
+  --color-char: #252525;
+  --color-char-2: #1b1b1b;
+  --color-line: #343434;
+  --color-burgundy: #800020;
+  --color-burgundy-hover: #9c0a2f;
+  --color-burgundy-deep: #5a0016;
+  --color-rose: #ef7a92; /* accessible burgundy tint for text on dark (≥ 6:1 on #101010) */
+  --color-mist: #f2f2f2;
+  --color-muted: #b9b9b9;
+  --color-ok: #6fd39a;
+
+  --font-display: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-card: 1.1rem;
+  --shadow-card: 0 1px 0 rgb(255 255 255 / 0.04) inset, 0 10px 30px -12px rgb(0 0 0 / 0.6);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 6rem;
+    color-scheme: dark;
+  }
+  body {
+    background: var(--color-ink);
+    color: #fff;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+  p { text-wrap: pretty; }
+  :focus-visible {
+    outline: 3px solid var(--color-rose);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+  dialog::backdrop {
+    background: rgb(0 0 0 / 0.72);
+    backdrop-filter: blur(3px);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .container-x { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8; }
+  .btn, .btn-primary, .btn-outline, .btn-light {
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 text-[0.95rem] font-semibold transition-colors duration-150 select-none;
+  }
+  .btn-primary { @apply bg-burgundy text-white hover:bg-burgundy-hover active:bg-burgundy-deep; }
+  .btn-outline { @apply border border-white/25 text-white hover:border-white/60 hover:bg-white/5; }
+  .btn-light { @apply bg-white text-ink hover:bg-mist; }
+  .eyebrow { @apply text-xs font-semibold tracking-[0.18em] text-rose uppercase; }
+  .section { @apply py-16 sm:py-24; }
+  .card { @apply rounded-[var(--radius-card)] border border-white/[0.06] bg-char shadow-[var(--shadow-card)]; }
+  .no-scrollbar { scrollbar-width: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: none; }
+}
+.animate-rise { animation: rise 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both; }

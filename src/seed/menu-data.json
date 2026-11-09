@@ -1,0 +1,833 @@
+{
+  "_source": "Imported 2026-11-06 from the restaurant's existing online ordering menu (orderprimoburgers.mobile-webview8.com). Prices must be confirmed by the owner before \"Show prices\" is turned on.",
+  "categories": [
+    {
+      "name": "Breakfast",
+      "icon": "pancakes",
+      "showOnHome": true,
+      "description": "",
+      "items": [
+        {
+          "name": "Two Pancakes",
+          "price": 4.49
+        },
+        {
+          "name": "Double Stack Pancake",
+          "price": 4.49
+        },
+        {
+          "name": "Three Pancakes",
+          "price": 5.49
+        },
+        {
+          "name": "Triple Stack Pancakes",
+          "price": 5.49,
+          "featured": true
+        },
+        {
+          "name": "French Toast",
+          "price": 6.49
+        },
+        {
+          "name": "Biscuit & Gravy",
+          "price": 6.19
+        }
+      ]
+    },
+    {
+      "name": "Kids' Breakfast",
+      "icon": "kids",
+      "showOnHome": false,
+      "description": "Offered with choice of one orange juice or milk.",
+      "items": [
+        {
+          "name": "1 Pc French Toast & 1 Egg (Any Style)",
+          "price": 4.99
+        },
+        {
+          "name": "2 Mickey Mouse Pancakes & 1 Egg (Any Style)",
+          "price": 4.99
+        },
+        {
+          "name": "Hashbrowns & 1 Egg (Any Style)",
+          "price": 4.99
+        }
+      ]
+    },
+    {
+      "name": "Eggs",
+      "icon": "egg",
+      "showOnHome": false,
+      "description": "",
+      "items": [
+        {
+          "name": "Two Eggs (Any Style)",
+          "price": 7.59
+        },
+        {
+          "name": "Ham & Eggs",
+          "price": 8.99
+        },
+        {
+          "name": "Bacon & Eggs",
+          "price": 8.99
+        },
+        {
+          "name": "Sausage & Eggs",
+          "price": 8.99
+        },
+        {
+          "name": "Hot Polish Sausage & Eggs",
+          "price": 8.99
+        },
+        {
+          "name": "Huevos Rancheros",
+          "price": 8.99
+        },
+        {
+          "name": "N.Y. Steak & Eggs",
+          "price": 14.99
+        },
+        {
+          "name": "Biscuit & Gravy",
+          "price": 9.29
+        },
+        {
+          "name": "Chicken Fried Steak",
+          "price": 9.99
+        },
+        {
+          "name": "Country Breakfast",
+          "price": 9.99
+        }
+      ]
+    },
+    {
+      "name": "Omelettes",
+      "icon": "egg",
+      "showOnHome": false,
+      "description": "3 Eggs served with hash browns and toast.",
+      "items": [
+        {
+          "name": "Cheese Omelette",
+          "price": 8.99
+        },
+        {
+          "name": "Cheese & Avocado Omelette",
+          "price": 9.99
+        },
+        {
+          "name": "Ham & Cheese Omelette",
+          "price": 9.99
+        },
+        {
+          "name": "Veggie Omelette",
+          "price": 9.99
+        },
+        {
+          "name": "Spinach and Mushroom Omelette",
+          "price": 9.99
+        },
+        {
+          "name": "Chili Cheese Omelette",
+          "price": 9.99
+        },
+        {
+          "name": "Pastrami Omelette",
+          "price": 10.59
+        },
+        {
+          "name": "Denver Omelette",
+          "price": 9.99
+        }
+      ]
+    },
+    {
+      "name": "Breakfast Burritos",
+      "icon": "burrito",
+      "showOnHome": true,
+      "description": "All burritos come in a large flour tortilla.",
+      "items": [
+        {
+          "name": "Chorizo Burrito",
+          "price": 6.99
+        },
+        {
+          "name": "Bacon Burrito",
+          "price": 6.99
+        },
+        {
+          "name": "Sausage Burrito",
+          "price": 6.99,
+          "featured": true
+        },
+        {
+          "name": "Ham Burrito",
+          "price": 6.99
+        },
+        {
+          "name": "Hot Polish Sausage Burrito",
+          "price": 6.99
+        },
+        {
+          "name": "Combo Burrito",
+          "price": 6.99,
+          "description": "Ham, bacon, sausage."
+        },
+        {
+          "name": "Breakfast Bowl",
+          "price": 8.99
+        }
+      ]
+    },
+    {
+      "name": "Breakfast Sandwiches",
+      "icon": "sandwich",
+      "showOnHome": false,
+      "description": "",
+      "items": [
+        {
+          "name": "Bacon or Sausage or Ham & Egg Sandwich",
+          "price": 7.49
+        },
+        {
+          "name": "Polish Sausage & Egg Sandwich",
+          "price": 7.49
+        },
+        {
+          "name": "Steak & Egg Sandwich",
+          "price": 9.99
+        }
+      ]
+    },
+    {
+      "name": "Breakfast Sides",
+      "icon": "egg",
+      "showOnHome": false,
+      "description": "",
+      "items": [
+        {
+          "name": "Toast",
+          "price": 1.89
+        },
+        {
+          "name": "One Egg",
+          "price": 1.5
+        },
+        {
+          "name": "Two Eggs",
+          "price": 3.59
+        },
+        {
+          "name": "Hashbrown",
+          "price": 3.29
+        },
+        {
+          "name": "Bacon",
+          "price": 3.59
+        },
+        {
+          "name": "Sausage",
+          "price": 3.59
+        },
+        {
+          "name": "Ham",
+          "price": 3.59
+        },
+        {
+          "name": "Polish Sausage",
+          "price": 3.59
+        },
+        {
+          "name": "Steak",
+          "price": 5.99
+        },
+        {
+          "name": "Chicken Breast",
+          "price": 5.99
+        },
+        {
+          "name": "Gyro Meat",
+          "price": 5.99
+        },
+        {
+          "name": "Pastrami",
+          "price": 6.5
+        }
+      ]
+    },
+    {
+      "name": "Burgers",
+      "icon": "burger",
+      "showOnHome": true,
+      "description": "Served with thousand island dressing, onion, lettuce, tomato.",
+      "items": [
+        {
+          "name": "Hamburger",
+          "price": 3.69
+        },
+        {
+          "name": "Cheese Burger",
+          "price": 3.99
+        },
+        {
+          "name": "Chili Burger",
+          "price": 4.59
+        },
+        {
+          "name": "Chili Cheese Burger",
+          "price": 5.49
+        },
+        {
+          "name": "Bacon Cheese Burger",
+          "price": 5.99
+        },
+        {
+          "name": "Double Burger",
+          "price": 5.69
+        },
+        {
+          "name": "Double Cheese Burger",
+          "price": 6.39,
+          "featured": true
+        },
+        {
+          "name": "Colossal Burger",
+          "price": 6.99
+        },
+        {
+          "name": "Primo Best Burger",
+          "price": 6.99,
+          "description": "Cheese, bacon, avocado.",
+          "featured": true
+        },
+        {
+          "name": "Garden Burger",
+          "price": 6.39,
+          "description": "Veggie.",
+          "dietaryTags": [
+            "vegetarian"
+          ]
+        },
+        {
+          "name": "Western Bacon Cheese Burger",
+          "price": 6.99
+        },
+        {
+          "name": "Ortega Swiss Burger",
+          "price": 6.99
+        },
+        {
+          "name": "Mojave Burger",
+          "price": 6.29
+        },
+        {
+          "name": "Primo Deluxe Burger",
+          "price": 7.89
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "icon": "sandwich",
+      "showOnHome": true,
+      "description": "",
+      "items": [
+        {
+          "name": "Charbroiled Chicken Sandwich",
+          "price": 7.59
+        },
+        {
+          "name": "Ham & Cheese Sandwich",
+          "price": 5.89
+        },
+        {
+          "name": "Grilled Cheese Sandwich",
+          "price": 4.49
+        },
+        {
+          "name": "Grilled Ham & Cheese Sandwich",
+          "price": 6.39
+        },
+        {
+          "name": "Fish Sandwich (Cod)",
+          "price": 5.99
+        },
+        {
+          "name": "B.L.T",
+          "price": 5.89
+        },
+        {
+          "name": "B.L.T (with Avocado)",
+          "price": 6.59
+        },
+        {
+          "name": "Patty Melt",
+          "price": 5.99
+        },
+        {
+          "name": "Pastrami",
+          "price": 8.99
+        },
+        {
+          "name": "Steak Sandwich",
+          "price": 8.99
+        },
+        {
+          "name": "B.B.Q Beef with Fries",
+          "price": 10.59
+        },
+        {
+          "name": "Beef Dip with Fries",
+          "price": 10.59
+        },
+        {
+          "name": "Gyros On Pita",
+          "price": 8.49,
+          "description": "Lettuce, tomatoes, onions & special sauce."
+        },
+        {
+          "name": "Chicken Gyros",
+          "price": 8.49,
+          "description": "Lettuce, tomatoes, onions & special sauce."
+        },
+        {
+          "name": "Tuna Sandwich",
+          "price": 6.59
+        },
+        {
+          "name": "Tuna Melt",
+          "price": 6.99
+        },
+        {
+          "name": "Club Sandwich",
+          "price": 9.99
+        },
+        {
+          "name": "Hot Polish Sausage",
+          "price": 6.99
+        },
+        {
+          "name": "Spicy Chicken",
+          "price": 6.39
+        },
+        {
+          "name": "Philly Cheese Steak",
+          "price": 8.49,
+          "featured": true
+        }
+      ]
+    },
+    {
+      "name": "Entrées",
+      "icon": "taco",
+      "showOnHome": false,
+      "description": "",
+      "items": [
+        {
+          "name": "Cheese Quesadilla",
+          "price": 4.99
+        },
+        {
+          "name": "Bean & Cheese Burrito",
+          "price": 4.99
+        },
+        {
+          "name": "Chicken Burrito",
+          "price": 8.99
+        },
+        {
+          "name": "Carne Asada Burrito",
+          "price": 8.99
+        },
+        {
+          "name": "Chicken Quesadilla",
+          "price": 8.99
+        },
+        {
+          "name": "Carne Asada Quesadilla",
+          "price": 8.99,
+          "featured": true
+        },
+        {
+          "name": "Chicken Taco",
+          "price": 3.69
+        },
+        {
+          "name": "Carne Asada Taco",
+          "price": 3.69
+        },
+        {
+          "name": "Wet Burrito",
+          "price": 10.59,
+          "description": "Chicken or carne asada."
+        },
+        {
+          "name": "Chorizo Plate",
+          "price": 8.99
+        },
+        {
+          "name": "Nachos",
+          "price": 8.99
+        },
+        {
+          "name": "Fish Taco",
+          "price": 3.69
+        },
+        {
+          "name": "Fish Burrito",
+          "price": 8.59
+        }
+      ]
+    },
+    {
+      "name": "Dinner Entrées",
+      "icon": "plate",
+      "showOnHome": true,
+      "description": "Served with a small garden salad and dinner roll.",
+      "items": [
+        {
+          "name": "Fish Dinner",
+          "price": 11.59
+        },
+        {
+          "name": "Carne Asada Plate",
+          "price": 11.59
+        },
+        {
+          "name": "Chicken Breast",
+          "price": 11.59
+        },
+        {
+          "name": "Shrimp Dinner",
+          "price": 11.59
+        },
+        {
+          "name": "N.Y. Steak Dinner",
+          "price": 14.99
+        },
+        {
+          "name": "Shrimp Basket Dinner",
+          "price": 11.59
+        },
+        {
+          "name": "Chicken Plate",
+          "price": 11.59
+        },
+        {
+          "name": "Fried Chicken Dinner",
+          "price": 11.59
+        },
+        {
+          "name": "Chicken Strip Dinner",
+          "price": 11.59
+        }
+      ]
+    },
+    {
+      "name": "Entrée Baskets",
+      "icon": "basket",
+      "showOnHome": false,
+      "description": "",
+      "items": [
+        {
+          "name": "Hot or B.B.Q Wing",
+          "price": 8.89
+        },
+        {
+          "name": "Hot (B.B.Q) Wing, Fries & Zucchini",
+          "price": 11.99
+        },
+        {
+          "name": "Shrimp Basket (with Fries)",
+          "price": 10.29
+        },
+        {
+          "name": "3 Pcs. Fish Basket (with Fries)",
+          "price": 10.29
+        },
+        {
+          "name": "4 Pcs. Chicken Strip Basket (with Fries)",
+          "price": 10.29
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "icon": "salad",
+      "showOnHome": false,
+      "description": "",
+      "items": [
+        {
+          "name": "Green Salad (Small)",
+          "price": 3.99
+        },
+        {
+          "name": "Green Salad (Large)",
+          "price": 5.49
+        },
+        {
+          "name": "Greek Salad",
+          "price": 9.29
+        },
+        {
+          "name": "Tuna Salad",
+          "price": 9.29
+        },
+        {
+          "name": "Chef Salad",
+          "price": 9.29
+        },
+        {
+          "name": "Chicken Salad",
+          "price": 9.29
+        },
+        {
+          "name": "Crispy Chicken Salad",
+          "price": 9.29
+        },
+        {
+          "name": "Chicken or Beef Tostada Salad",
+          "price": 9.99
+        },
+        {
+          "name": "Chicken Wrap",
+          "price": 8.29
+        },
+        {
+          "name": "Buffalo Wrap",
+          "price": 8.29
+        },
+        {
+          "name": "Salad Burrito",
+          "price": 5.59
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "icon": "fries",
+      "showOnHome": true,
+      "description": "",
+      "items": [
+        {
+          "name": "Cottage Cheese",
+          "price": 2.99
+        },
+        {
+          "name": "Mixed Fruit Bowl",
+          "price": 3.99
+        },
+        {
+          "name": "Steamed Vegetable",
+          "price": 3.99
+        },
+        {
+          "name": "French Fries",
+          "price": 3.49
+        },
+        {
+          "name": "Zucchini",
+          "price": 5.99
+        },
+        {
+          "name": "Onion Rings",
+          "price": 5.99
+        },
+        {
+          "name": "Chili Cheese Fries",
+          "price": 6.79
+        },
+        {
+          "name": "Corn Dog",
+          "price": 2.79
+        },
+        {
+          "name": "Hot Dog",
+          "price": 3.89
+        },
+        {
+          "name": "Chili Cheese Dog",
+          "price": 5.29
+        },
+        {
+          "name": "Beef Taquitos (3 Pc)",
+          "price": 3.59
+        },
+        {
+          "name": "Chicken Taquitos (3 Pc)",
+          "price": 3.59
+        },
+        {
+          "name": "Side Ranch Dressing",
+          "price": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Kids' Menu",
+      "icon": "kids",
+      "showOnHome": false,
+      "description": "For children under 12, served with fries & soft drink.",
+      "items": [
+        {
+          "name": "Junior Burger",
+          "price": 5.49
+        },
+        {
+          "name": "Hot Dog",
+          "price": 5.49
+        },
+        {
+          "name": "Corn Dog",
+          "price": 5.49
+        },
+        {
+          "name": "Grilled Cheese",
+          "price": 5.49
+        },
+        {
+          "name": "Chicken Strips",
+          "price": 5.49
+        }
+      ]
+    },
+    {
+      "name": "Combo Specials",
+      "icon": "star",
+      "showOnHome": true,
+      "description": "Served with fries or small salad and soft drink.",
+      "items": [
+        {
+          "name": "Colossal Burger",
+          "price": 10.59
+        },
+        {
+          "name": "Primo Best",
+          "price": 10.59
+        },
+        {
+          "name": "Primo Deluxe",
+          "price": 10.59
+        },
+        {
+          "name": "Spicy Chicken",
+          "price": 9.69
+        },
+        {
+          "name": "Garden Burger",
+          "price": 10.19
+        },
+        {
+          "name": "Tuna / Turkey / Ham",
+          "price": 9.69
+        },
+        {
+          "name": "Pastrami",
+          "price": 11.99
+        },
+        {
+          "name": "Philly Cheese Steak (Chicken/Beef)",
+          "price": 11.99
+        },
+        {
+          "name": "Chicken Sandwich",
+          "price": 11.99
+        },
+        {
+          "name": "Steak Sandwich",
+          "price": 11.99
+        },
+        {
+          "name": "Club Sandwich",
+          "price": 11.99
+        },
+        {
+          "name": "Gyro (Chicken / Lamb)",
+          "price": 11.99
+        },
+        {
+          "name": "Western Bacon Cheeseburger",
+          "price": 10.59
+        },
+        {
+          "name": "Ortega Burger",
+          "price": 10.59
+        },
+        {
+          "name": "B.L.T",
+          "price": 9.19
+        },
+        {
+          "name": "Hamburger",
+          "price": 7.99
+        },
+        {
+          "name": "Cheeseburger",
+          "price": 8.49
+        },
+        {
+          "name": "Double Cheeseburger",
+          "price": 10.19
+        },
+        {
+          "name": "Bacon Cheeseburger",
+          "price": 9.89
+        },
+        {
+          "name": "Chili Cheeseburger",
+          "price": 9.69
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "icon": "coffee",
+      "showOnHome": true,
+      "description": "",
+      "items": [
+        {
+          "name": "Shakes",
+          "price": 2.99
+        },
+        {
+          "name": "Milk",
+          "price": 1.99
+        },
+        {
+          "name": "Orange Juice",
+          "price": 1.99
+        },
+        {
+          "name": "Hot Cocoa",
+          "price": 2.99
+        },
+        {
+          "name": "Hot Tea",
+          "price": 2.29
+        },
+        {
+          "name": "Ice Cappuccino",
+          "price": 2.59,
+          "description": "Mocha or caramel."
+        },
+        {
+          "name": "Coffee",
+          "price": 2.39
+        }
+      ]
+    },
+    {
+      "name": "Soft Drinks",
+      "icon": "drink",
+      "showOnHome": false,
+      "description": "",
+      "items": [
+        {
+          "name": "Soft Drinks",
+          "price": 2.29
+        }
+      ]
+    }
+  ]
+}
